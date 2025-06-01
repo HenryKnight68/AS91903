@@ -1,13 +1,30 @@
 :root
 {
-    --bs-emphasis-color: #000000;
-    --bs-tertiary-bg: #a7be6b;
-    --bs-tertiary-bg-rgb: 167,190,107;
+    --bs-emphasis-color: #424024;
+    --bs-tertiary-bg: #222313;
+    --bs-tertiary-bg-rgb: 34, 35, 19;
     --bs-body-bg: #E1E8B9;
-    --bs-body-color: #2f2e1a;
+    --bs-body-color: #424024;
+    
+    [data-bs-theme=dark] {
+        --bs-tertiary-bg: #222313;
+        --bs-tertiary-bg-rgb: 34, 35, 19;        
+    }
+}
+
+.header {
+    width: 95%;
+    max-width: 1300px;
+    height: auto;    
 }
 
 .feature-images {
     width: 80px;
     height: 80px;
+}
+
+.hero-image {
+    width: 95%;
+    max-width: 1300px;
+    height: auto;
 }
