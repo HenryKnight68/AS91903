@@ -1,3 +1,13 @@
-.title {
-    color: green;
+:root
+{
+    --bs-emphasis-color: #000000;
+    --bs-tertiary-bg: #a7be6b;
+    --bs-tertiary-bg-rgb: 167,190,107;
+    --bs-body-bg: #E1E8B9;
+    --bs-body-color: #2f2e1a;
+}
+
+.feature-images {
+    width: 80px;
+    height: 80px;
 }

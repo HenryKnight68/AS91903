@@ -13,7 +13,7 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
         <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -74,7 +74,15 @@
             ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
             sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
         </div>
+\
+        
+        <div style="position: relative; width: 80vw; height: 40vh; margin: auto">
+            <canvas id="gen_vs_cons"></canvas>
+        </div>
 
+        <script src="generation_vs_consumption_graph.js"></script>
+    
+        
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
