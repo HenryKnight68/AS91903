@@ -1,0 +1,133 @@
+<svg width="2200" height="1500" viewBox="0 0 2200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style></style>
+
+    <!-- Gradients for the sky -->
+    <defs>
+        <linearGradient id="sky-gradient" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="#51a1b8" stop-opacity="0" />
+            <stop offset="50%" stop-color="#51a1b8" />
+            <stop offset="100%" stop-color="#51a1b8" />
+        </linearGradient>
+    </defs>
+
+    <!-- Sky -->
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#sky-gradient)"></rect>
+
+    <!-- distant hill -->
+    <path
+        d="M1700,900 
+             C1900,870 2000,950 2200,1125
+             L2200,1500 L0,1500 
+             Z"
+        fill="#e1e8b9" />
+
+    <!-- fourth pole -->
+    <g color="#424024">
+        <rect x="2100" y="920" width="5" height="430" fill="currentColor"></rect>
+        <rect x="2050" y="920" width="100" height="2" fill="currentColor"></rect>
+        <circle cx="2052" cy="920" r="2" fill="currentColor"></circle>
+        <circle cx="2055" cy="920" r="2" fill="currentColor"></circle>
+        <circle cx="2145" cy="920" r="2" fill="currentColor"></circle>
+        <circle cx="2148" cy="920" r="2" fill="currentColor"></circle>
+    </g>
+    
+    <!-- middle hills -->
+    <path
+        d="M900,850 
+             C1200,750 1600,950 2200,1100
+             L2200,1500 L0,1500 
+             Z"
+        fill="#c0cf8f" />
+
+    <!-- foreground hill -->
+    <path
+        d="M0,700 
+             C150,650 600,650 2200,1300
+             L2200,1500 L0,1500 
+             Z"
+        fill="#a7b76b" />
+
+    <!-- first pole -->
+    <g color="#424024">
+        <rect x="300" y="200" width="50" height="1200" fill="currentColor"></rect>
+        <rect x="100" y="200" width="450" height="25" fill="currentColor"></rect>
+        <circle cx="110" cy="200" r="15" fill="currentColor"></circle>
+        <circle cx="140" cy="200" r="15" fill="currentColor"></circle>
+        <circle cx="510" cy="200" r="15" fill="currentColor"></circle>
+        <circle cx="540" cy="200" r="15" fill="currentColor"></circle>
+    </g>
+
+    <!-- second pole -->
+    <g color="#424024">
+        <rect x="1100" y="400" width="30" height="700" fill="currentColor"></rect>
+        <rect x="950" y="400" width="330" height="15" fill="currentColor"></rect>
+        <circle cx="960" cy="400" r="10" fill="currentColor"></circle>
+        <circle cx="980" cy="400" r="10" fill="currentColor"></circle>
+        <circle cx="1250" cy="400" r="10" fill="currentColor"></circle>
+        <circle cx="1270" cy="400" r="10" fill="currentColor"></circle>
+    </g>
+
+    <!-- third pole -->
+    <g color="#424024">
+        <rect x="1700" y="600" width="20" height="430" fill="currentColor"></rect>
+        <rect x="1600" y="600" width="220" height="7" fill="currentColor"></rect>
+        <circle cx="1605" cy="600" r="5" fill="currentColor"></circle>
+        <circle cx="1615" cy="600" r="5" fill="currentColor"></circle>
+        <circle cx="1805" cy="600" r="5" fill="currentColor"></circle>
+        <circle cx="1815" cy="600" r="5" fill="currentColor"></circle>
+    </g>
+
+    <!-- wires -->
+    <g color="#424024">
+        <!-- edge to first -->
+        <path
+            d="M0,220
+                Q0,230 110,200"
+            stroke="currentColor"></path>
+        <path
+            d="M0,260
+                Q0,270 540,200"
+            stroke="currentColor"></path>
+
+        <!-- first to second -->
+        <path
+            d="M110,200
+                Q535,550 960,400"
+            stroke="currentColor"></path>
+        <path
+            d="M540,200
+                Q1005,550 1270,400"
+            stroke="currentColor"></path>
+        
+        <!-- second to third -->
+        <path
+            d="M960,400
+                Q1282.5,650 1605,600"
+            stroke="currentColor"></path>
+        <path
+            d="M1270,400
+                Q1542.5,650 1815,600"
+            stroke="currentColor"></path>
+
+        <!-- third to fourth -->
+        <path
+            d="M1605,600
+                Q1890,900 2052,920"
+            stroke="currentColor"></path>
+        <path
+            d="M1815,600
+                Q2000,900 2148,920"
+            stroke="currentColor"></path>
+
+        <!-- fourth to edge-->
+        <path
+            d="M2052,920
+                Q2150,940 2200,935"
+            stroke="currentColor"></path>
+        <path
+            d="M2148,920
+                Q2200,933 2200,930"
+            stroke="currentColor"></path>
+
+    </g>
+</svg>
