@@ -1,5 +1,3 @@
-//import Chart from 'chart.js/auto';
-
 (async function () {
   const labels = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022];
   const data = {
@@ -33,11 +31,12 @@
           Chart.instances[id].resize();
         }
       },
+      /*
       scales: {
         y: {
           min: 0
         }
-      }
+      }*/
     }
   });
 })();
