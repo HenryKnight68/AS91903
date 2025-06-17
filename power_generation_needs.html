@@ -51,23 +51,56 @@
             </nav>
         </div>
         <div class="container">
-            1Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-            justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
-            nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
-            laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-            nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-            sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
-            Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis
-            ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-            sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+            <p>
+                When it comes to electricity, it seems at first there is just one need - to keep the lights on and
+                produce enough electricity for everyone that needs it. But it doesn’t take much thinking to work out
+                that there’s more to it than that. Producing the right amount of electricity for demand is complicated,
+                and as demand grows, our problem becomes bigger to solve.
+            </p>
+            <p>
+                The problem of electricity generation is three-fold. How can we achieve reliability, sustainability and
+                affordability all at the same time? And in a world where the demand for electricity is increasing
+                exponentially, how do we plan effectively for the future?
+            </p>
+            <p>
+                Data from the Ministry of Business, Innovation and Employment (MBIE) reveals that 60% of New Zealand’s
+                electricity in 2023 was generated through hydropower, 18% through geothermal, 9% through gas, 7% through
+                wind, and just over 2% from coal. Significantly, the Huntly power station, which provides electricity to
+                much of Auckland, Northland, and Waikato, as well as acting as a backup in periods of low hydro
+                generation, uses coal.
+            </p>
+            <p>
+                Over the next 25 years, New Zealand is committed to increasing its share of renewable energy to 98.3%,
+                even with the predicted increase in demand. That translates to up to 71.7 terawatt-hours (TW) per year.
+            </p>
+            <p>
+                Affordability is another significant concern for New Zealanders regarding electricity generation. Dry
+                summers driven by climate change have caused the hydro lake levels to drop, and combined with the lower
+                than normal levels of rainfall and falling gas reserves, the price of electricity has exploded. Since
+                September 2021, wholesale electricity prices have risen from approximately $100 per megawatt hour (MWh)
+                to an average of $700 per MWH in August 2024.
+            </p>
+            <p>
+                With the likelihood of the hydro lakes remaining low, and without finding further gas reserves, New
+                Zealand will have an ongoing problem with affordability and reliability. Electricity heavy industries
+                will have to charge more for their products and agree to more cuts when supply is low, meaning the New
+                Zealand economy will be at risk. It also means there will be less opportunities to open our country to
+                large data farms, and industry that is profitable, but requires the electricity to be affordable and
+                reliable.
+            </p>
+            <p>
+                Therefore, New Zealand needs to grow its electricity supply, especially with renewable energy sources.
+                Take a look deeper into our options on the <a href="/methods.html">Methods</a> page.
+            </p>
         </div>
-        
-        <div style="position: relative; width: 80vw; height: 40vh; margin: auto;">
-            <canvas id="gen_vs_cons"></canvas>
+
+        <div class="container">
+            <figure class="figure" style="position: relative; width: 100%">
+                <canvas class="figure-img" id="gen_vs_cons"></canvas>
+                <figcaption class="figure-caption text-center">
+                    Graph of New Zealand's Electricity Production vs Consumption
+                </figcaption>
+            </figure>
         </div>
 
         <script src="scripts/generation_vs_consumption_graph.js"></script>

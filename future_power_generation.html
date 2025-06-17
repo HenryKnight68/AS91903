@@ -13,6 +13,7 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
         <link rel="stylesheet" href="styles/styles.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
     </head>
     <body>
         <div class="container-md mb-5">
@@ -51,20 +52,51 @@
             </nav>
         </div>
         <div class="container">
-            3Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-            fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
-            justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper
-            nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-            Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius
-            laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
-            nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
-            sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
-            Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis
-            ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec
-            sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+            <p>
+                The world is in the midst of a technological revolution, with almost anything we could conceive of as a
+                need easily available. We have robots vacuuming our floors and mowing our lawns, cars will soon drive
+                themselves, and smart homes can get dinner cooking, or turn the lights on from a remote location. All of
+                these conveniences take energy, the source of which is a matter of debate.
+            </p>
+            <p>
+                And while our demand for energy is growing, so too is our pressure on the national grid, and our impact
+                on the climate. Over the last 30 years, New Zealander’s have increased their annual energy consumption
+                by around 150 PJ (or Petajoules). Just 1 petajoule has enough energy to drive 30,000 cars for a whole
+                year, so the picture of a massive increase in demand is clear. Because that demand comes mostly from
+                vehicles (our cars, industrial vehicles, planes, and so on), our reliance on fossil fuels currently
+                remains high.
+            </p>
+
+            <figure class="figure" style="position: relative; width: 100%">
+                <div id="legend-container"></div>
+                <canvas class="figure-img" id="nz_total_energy_usage"></canvas>
+                <figcaption class="figure-caption text-center">Graph of New Zealand's Total Energy Usage</figcaption>
+            </figure>
+
+            <p>
+                It is forecasted that by 2050, our electricity demand will increase by 82% (off a 2013 baseline). As
+                electric vehicles replace their petrol-driven counterparts, pressure on our energy production will
+                increase significantly. If we also consider climate change and the inconsistency it can bring to our
+                ability to produce a consistent energy supply, New Zealand must undertake some urgent planning.
+            </p>
+            <p>
+                As of today, the most economically viable forms of new renewable electricity generation are most likely
+                to be wind and solar energy. We already see solar on our own houses at a small scale, and have heard of
+                large-scale wind farms producing hundreds of megawatts. Being able to make use of this power generation
+                around the clock through the use of Bluetooth and Wi-Fi-enabled appliances is a first step in building
+                supply resilience, as is the more widespread use of batteries for storage.
+            </p>
+            <p>
+                However, it is time to have some serious discussions about how to make New Zealand’s power generation
+                future-proof: affordable, sustainable, and reliable. Are we currently dabbling around the edges of a
+                large infrastructure issue, or can we be ready for the future? Is it time to start having a conversation
+                about the introduction of nuclear energy so that supply can be close to the highest demand, enabling us
+                to avoid transmission losses? Whatever it will take, I am sure that we can be successful if we
+                collaborate with a vision of a clean, green, secure, and cost-effective future in mind.
+            </p>
         </div>
+
+        <script src="scripts/nz_total_energy_usage_graph.js"></script>
 
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
