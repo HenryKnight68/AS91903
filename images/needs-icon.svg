@@ -1,4 +1,6 @@
 <svg width="100" height="150" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="50" fill="gold"></circle>
+
     <g color="#931f1d">
         <g>
             <line x1="50" y1="0" x2="50" y2="15" stroke="currentColor"></line>
@@ -19,12 +21,12 @@
             <line x1="100" y1="50" x2="90" y2="50" stroke="currentColor"></line>
         </g>
 
-        <circle cx="50" cy="50" r="30" fill="gold"></circle>
-        
-        <path d="M48,35 
+        <path
+            d="M48,35 
                 h15 l-10,10 h8 l-10,10 h8 l-16,20
                 l4,-15 h-8 l8,-10, h-8 l8,-10 h-8 l5,-5
                 
-                 Z" fill="currentColor"></path>
+                 Z"
+            fill="currentColor"></path>
     </g>
 </svg>

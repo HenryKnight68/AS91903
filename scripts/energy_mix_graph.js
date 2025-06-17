@@ -93,14 +93,9 @@
       responsive: true,
       maintainAspectRatio: true,
       onResize: (chart, newSize) => {
-        console.log("A", chart);
-        console.log("B", newSize);
         for (let id in Chart.instances) {
           Chart.instances[id].resize();
         }
-        
-        //chart.resize();
-        //chart.canvas.parentNode.style.paddingBottom = chart.canvas.height;
       },
       scales: {
         x: {

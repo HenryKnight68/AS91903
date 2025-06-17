@@ -1,21 +1,29 @@
-:root
-{
+:root {
     --bs-emphasis-color: #424024;
     --bs-tertiary-bg: #222313;
     --bs-tertiary-bg-rgb: 34, 35, 19;
-    --bs-body-bg: #E1E8B9;
+    --bs-body-bg: #e1e8b9;
     --bs-body-color: #424024;
-    
-    [data-bs-theme=dark] {
+    --bs-link-color-rgb: 81, 162, 184;
+    --bs-link-color: #51a1b8;
+    --bs-link-hover-color-rgb: 9, 12, 155;
+    --bs-link-hover-color: #090c9b;
+
+    [data-bs-theme="dark"] {
         --bs-tertiary-bg: #222313;
-        --bs-tertiary-bg-rgb: 34, 35, 19;        
+        --bs-tertiary-bg-rgb: 34, 35, 19;
     }
 }
 
 .header {
     width: 95%;
     max-width: 1300px;
-    height: auto;    
+    height: auto;
+}
+
+.site-logo {
+    width: 40px;
+    height: 40px;
 }
 
 .feature-images {
@@ -27,4 +35,28 @@
     width: 95%;
     max-width: 1300px;
     height: auto;
+}
+
+.content-image {
+    width: 100%;
+    max-width: 720px;
+}
+
+.header-credit {
+    position: absolute;
+    bottom: 66px;
+    right: 20px;
+    font-size: x-small;
+}
+
+.feature-icon-link {
+    display: inline-flex;
+    text-decoration-line: none;
+    align-items: center;
+}
+
+.page-title {
+    position: absolute;
+    top: 4px;
+    right: 20px;
 }
